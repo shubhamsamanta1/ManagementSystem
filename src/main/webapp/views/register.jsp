@@ -79,7 +79,40 @@
                     border: 1px solid #ff6666;
                     border-radius: 10px;
 
+                     }
+                    .userType1 {
+                            display: inline-block;
+                            width: 150px;
+                            text-align: left;
+                            margin-right: 20px;
                         }
+
+                        .userType {
+                            width: 200px;
+                            padding: 8px;
+                            align:right;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                            appearance: none;
+                            -webkit-appearance: none;
+                            background-color: #fff;
+                            background-repeat: no-repeat;
+                            background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18px" height="18px"><path d="M7 10l5 5 5-5z" /><path d="M0 0h24v24H0z" fill="none" /></svg>');
+                            background-position: right 8px top 50%;
+                            cursor: pointer;
+                        }
+
+
+                        .userType:hover, .userType:focus {
+                            border-color: #999;
+                        }
+
+                         .group {
+                                margin-bottom: 20px;
+                            }
+
+
+
     </style>
 </head>
 <body>
@@ -104,6 +137,14 @@
         <input type="email" id="email" name="email" required>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
+        <div class="group">
+        <label for="userType1" class="userType1">Select user type:</label>
+            <select id="userType" name="userType" class="userType">
+                <option value="none">Choose one</option>
+                <option value="Org_user">Co-operate User</option>
+                <option value="Inst_user">Educational User</option>
+            </select>
+         </div>
         <button type="submit">Save User</button>
     </form>
 </body>

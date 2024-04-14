@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class AdminUser {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
     @Column(name = "name")
@@ -24,6 +24,9 @@ public class AdminUser {
 
     @Column(name = "password")
     public String password;
+
+    @Column(name="userType")
+    public String userType;
 
 
 }
