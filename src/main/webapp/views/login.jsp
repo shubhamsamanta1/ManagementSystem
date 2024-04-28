@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-        /* Center the form on the page */
+
         body {
             display: flex;
             justify-content: center;
@@ -15,7 +15,6 @@
             margin: 0;
         }
 
-        /* Style for the form */
         form {
             width: 300px;
             padding: 20px;
