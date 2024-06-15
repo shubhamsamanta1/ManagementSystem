@@ -24,10 +24,10 @@ public class AdminController {
         if (!email.isEmpty() && !password.isEmpty()) {
             if(adminService.Login(email,password).equals(MasterConstants.BOTH_PRESENT)) {
                 if(adminService.userRole(email).equals(MasterConstants.ORG_USER)){
-                    long count = adminService.countUsers();;
+                    long count = adminService.countUsers(MasterConstants.ORG_USER);;
                     return "redirect:/OrgDashboard?username=" + adminService.userName(email)+ "&count=" + count;
                 } else if (adminService.userRole(email).equals(MasterConstants.INST_USER)) {
-                    long count = adminService.countUsers();
+                    long count = adminService.countUsers(MasterConstants.INST_USER);
                     return "redirect:/InstDashboard?username=" + adminService.userName(email)+ "&count=" + count;
                 }
             } else if (adminService.Login(email,password).equals(MasterConstants.INCORRECT_EMAIL)) {

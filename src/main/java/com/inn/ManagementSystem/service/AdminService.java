@@ -5,6 +5,9 @@ import com.inn.ManagementSystem.repository.AdminUserRepo;
 import com.inn.ManagementSystem.constants.MasterConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 @Service
 public class AdminService {
 
@@ -48,8 +51,10 @@ public class AdminService {
         return adminUser.name;
     }
 
-    public long countUsers() {
-        return adminUserRepo.count();
+    public long countUsers(String type) {
+        List<AdminUser> Listuser = adminUserRepo.findCount(type);
+        System.out.println(Listuser);
+        return Listuser.size();
     }
 
 }

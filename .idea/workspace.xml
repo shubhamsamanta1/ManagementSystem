@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca6fd3e-1889-4dbb-aa68-5e77577519f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/repository/StudentUserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/repository/AdminUserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/repository/AdminUserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inn/ManagementSystem/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/InstDashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/InstDashboard.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/OrgDashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/OrgDashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/inn/ManagementSystem/Controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inn/ManagementSystem/Controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/inn/ManagementSystem/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inn/ManagementSystem/service/AdminService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,8 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/shubham/IdeaProjects/ManagementSystem/src/main/webapp/images"
+    "last_opened_file_path": "C:/Users/shubham/IdeaProjects/ManagementSystem/src/main/webapp/images",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -110,5 +108,16 @@
       <updated>1711788551796</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -166,7 +166,7 @@
        <div class="container">
            <h1 class="dashboard-heading">DASHBOARD:</h1>
            <div class="page-content">
-               <p style="font-size: 16px;">Currently this system has <%= request.getParameter("count") %> active users. - inst</p>
+               <p style="font-size: 16px;">Currently this system has <%= request.getParameter("count") %> active Educational User profiles. - inst</p>
            </div>
        </div>
            <h3 class="services-heading">Our Services</h3>
